@@ -1,0 +1,10 @@
+CREATE DATABASE QLSinhVien;
+GO
+USE QLSinhVien;
+
+CREATE TABLE SinhVien (
+    Id INT PRIMARY KEY IDENTITY,
+    Ten NVARCHAR(100),
+    Tuoi INT,
+    DiaChi NVARCHAR(255)
+);
